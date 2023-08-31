@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image:url(./Bilder/Lautaro.png);
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header{
+    border: px solid;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(18, 23, 28);
+    height: 100px;
+    position: sticky;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.logo{
+    width: 75px;
+    height: 90px;
+    position: relative;
+    animation: serie-a 20s linear 1s 2 normal both running;
+}
+
+@keyframes serie-a {
+ 0%, 100%{
+    left: 0;
+    transform: rotate(0);
+   }
+   50%{
+    transform: rotate(360deg);
+    left: 95%;
+   }
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.first-icon {
+background-color: rgb(3, 150, 62);
+}
+
+.fourth-icon {
+    background-color: aliceblue;
+}
