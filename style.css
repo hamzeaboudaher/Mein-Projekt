@@ -50,9 +50,162 @@ nav ul{
 }
 
 .first-icon {
-background-color: rgb(3, 150, 62);
+background-color: rgb(85, 132, 104);
 }
 
 .fourth-icon {
     background-color: aliceblue;
 }
+
+.main-title{
+    color: rgb(224, 223, 236);
+    margin-bottom: 60px;
+}
+
+.image-container {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    animation: slideShow 20s linear infinite;
+  }
+  
+  @keyframes slideShow {
+    1% {
+      background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-21-34.png');
+    }
+    10%{
+      background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-27-23.png');
+    }
+    20% {
+      background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-28-21.png');
+    }
+    30% {
+      background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-30-00.png');
+    }
+    40% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-31-25.png');
+      }
+      50% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-32-52.png');
+      }
+      60% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-34-15.png');
+      }
+      70% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-36-25.png');
+      }
+      80% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-37-44.png');
+      }
+      90% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-40-47.png');
+      }
+      100% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-42-03.png');
+      }
+  }
+  
+
+  .image-container-2 {
+    width: 300px;
+    height: 200px;
+
+}
+
+.image-slide-2 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    animation: slideShow-2 20s linear infinite;
+  }
+  
+  @keyframes slideShow-2 {
+    1% {
+      background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 13-56-53.png');
+    }
+    10%{
+      background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 13-57-34.png');
+    }
+    20% {
+      background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 13-58-14.png');
+    }
+    30% {
+      background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 13-59-07.png');
+    }
+    40% {
+        background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 13-59-49.png');
+      }
+      50% {
+        background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 14-01-48.png');
+      }
+      60% {
+        background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 14-02-44.png');
+      }
+      70% {
+        background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 14-03-28.png');
+      }
+      80% {
+        background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 14-04-54.png');
+      }
+      90% {
+        background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 14-06-00.png');
+      }
+      100% {
+        background-image: url('./Teams/Screenshot\ from\ 2023-08-31\ 14-06-38.png');
+      }
+  }
+
+  .image-container-3 {
+    width: 300px;
+    height: 200px;
+    
+}
+
+.image-slide-3 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    animation: slideShow-3 20s linear infinite;
+  }
+  
+  @keyframes slideShow-3 {
+    1% {
+      background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 12-03-48.png');
+    }
+    10%{
+      background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 12-01-21.png');
+    }
+    20% {
+      background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-58-45.png');
+    }
+    30% {
+      background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-54-28.png');
+    }
+    40% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-51-12.png');
+      }
+      50% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-43-49.png');
+      }
+      60% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-42-03.png');
+      }
+      70% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-40-47.png');
+      }
+      80% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 15-13-41.png');
+      }
+      90% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-36-25.png');
+      }
+      100% {
+        background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-34-15.png');
+      }
+  }
