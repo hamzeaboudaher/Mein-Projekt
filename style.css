@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image:url(./Bilder/Lautaro.png);
+    background-image:url("./Bilder/Lautaro.png");
     background-size: cover;  
     background-position: center;
     background-repeat: no-repeat;
