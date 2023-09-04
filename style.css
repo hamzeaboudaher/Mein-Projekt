@@ -1,14 +1,17 @@
+/* # sourceMappingURL=style.css.map */
+
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-image:url(./Bilder/Lautaro.png);
-    background-size: 100%;  
+    background-size: cover;  
+    background-position: center;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 header{
+  background-image: url();
     border: px solid;
     margin-bottom: 10px;
     display: flex;
@@ -17,7 +20,6 @@ header{
     padding: 20px;
     color: rgb(18, 23, 28);
     height: 100px;
-    position: sticky;
 }
 
 a{
@@ -58,11 +60,14 @@ background-color: rgb(85, 132, 104);
 }
 
 .main-title{
-    color: rgb(224, 223, 236);
-    margin-bottom: 60px;
+    color: rgb(56, 230, 13);
+    margin-bottom: 20px;
+    font-size: 50px;
 }
 
 .image-container {
+  display: grid;
+ 
     width: 300px;
     height: 200px;
     overflow: hidden;
@@ -73,6 +78,7 @@ background-color: rgb(85, 132, 104);
     height: 100%;
     background-size: cover;
     animation: slideShow 20s linear infinite;
+    border-radius: 45%;
   }
   
   @keyframes slideShow {
@@ -115,6 +121,8 @@ background-color: rgb(85, 132, 104);
   .image-container-2 {
     width: 300px;
     height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
 
 }
 
@@ -123,6 +131,7 @@ background-color: rgb(85, 132, 104);
     height: 100%;
     background-size: cover;
     animation: slideShow-2 20s linear infinite;
+    border-radius: 25%;
   }
   
   @keyframes slideShow-2 {
@@ -162,9 +171,10 @@ background-color: rgb(85, 132, 104);
   }
 
   .image-container-3 {
-    width: 300px;
-    height: 200px;
-    
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 70%;
 }
 
 .image-slide-3 {
@@ -172,6 +182,7 @@ background-color: rgb(85, 132, 104);
     height: 100%;
     background-size: cover;
     animation: slideShow-3 20s linear infinite;
+    border-radius: 35% ;
   }
   
   @keyframes slideShow-3 {
@@ -209,3 +220,118 @@ background-color: rgb(85, 132, 104);
         background-image: url('./Bilder/Screenshot\ from\ 2023-08-31\ 11-34-15.png');
       }
   }
+
+ 
+
+  .footer-container {
+    width: 100%;
+    padding: 70px ;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color:rgb(45, 147, 27);
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+  .social-icons a i {
+    font-size: 20px;
+    color: rgb(228, 219, 190);
+    opacity: 0.9;
+  }
+
+  .social-icons a :hover{
+    color: rgb(35, 55, 201);
+    transition: 0.5s;
+  }
+
+  social-icons a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+
+  .footer-Nav{
+    margin: 30px ;
+  }
+  
+  .footer-Nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-Nav ul li a{
+    color: rgb(234, 241, 21);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 1;
+    transition: 2s;
+  }
+
+  .footer-Nav ul li a:hover{
+    opacity: 1;
+    color: rgb(177, 12, 12);
+  }
+
+  .footer-bottom {
+   background-color: #111;
+   padding: 20px;
+   text-align: center;
+   color: rgb(192, 9, 242);
+   font-size: 22px;
+  }
+
+@media (max-width: 700px){
+  .footer-Nav ul {
+    flex-direction: column;
+  }
+
+  .footer-Nav ul li{
+    width: 100%;
+    margin: 10px;
+  }
+}
+aside{
+
+}
+
+.text-1 {
+  font-size: 20px;
+  color: rgb(157, 212, 102);
+  width: 400px;
+  position: relative;
+  left: 70%;
+}
+
+.text-2 {
+  font-size: 20px;
+  color: rgb(157, 212, 102);
+  width: 400px;
+  position: relative;
+  right: 350px;
+}
+
+.first-div {
+  display: flex;
+
+}
+
+.secondary-title{
+  font-size: 30px;
+  color: rgb(27, 234, 234);
+}
+
+footer{
+  background-color:rgba(255,255,255,0.3);
+}
+
+li{
+  list-style: none;
+}
