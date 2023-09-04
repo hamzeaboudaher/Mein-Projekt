@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image:url(./Bilder/Lautaro.png);
+    background-image:url("./Bilder/Lautaro.png");
     background-size: cover;  
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ a{
     width: 75px;
     height: 90px;
     position: relative;
-    animation: serie-a 20s linear 1s 2 normal both running;
+    animation: serie-a 20s linear 1s 5 normal both ;
 }
 
 @keyframes serie-a {
@@ -281,7 +281,7 @@ background-color: rgb(85, 132, 104);
   }
 
   .footer-bottom {
-   background-color: #111;
+   background-color: black;
    padding: 20px;
    text-align: center;
    color: rgb(192, 9, 242);
@@ -298,11 +298,10 @@ background-color: rgb(85, 132, 104);
     margin: 10px;
   }
 }
-aside{
 
-}
 
 .text-1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   color: rgb(157, 212, 102);
   width: 400px;
@@ -311,6 +310,7 @@ aside{
 }
 
 .text-2 {
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: rgb(157, 212, 102);
   width: 400px;

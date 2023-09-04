@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../Bilder/bb.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+.title{
+    font-size: 35px;
+    color: rgb(222, 244, 31);
+}
+table{
+    border-collapse: collapse;
+    margin-left: 25px;
+    width: 95%;
+    height: 700px;
+    text-align: center;
+    color: rgb(205, 255, 6);
+}
+
+tr:nth-child(even){
+    background-color: rgba(25, 182, 82, 0.4);
+}
+
